@@ -1,3 +1,15 @@
-.places__paragraph{
-    
+.places__paragraph {
+    margin: 0;
+    margin-bottom: 26px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 484px;
+}
+
+.places__paragraph:nth-child(2n) {
+    margin-bottom: 0;
 }

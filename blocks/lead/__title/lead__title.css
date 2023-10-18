@@ -1,9 +1,12 @@
-.lead__title{
-    display: grid;
-    text-align: center;
-    font-family: Inter;
+.lead__title {
+    display: flex;
+    margin-bottom: 32px;
+    width: 720px;
+    height: 200px;
     font-size: 96px;
     font-style: normal;
     font-weight: 900;
-    line-height: 100px; /* 104.167% */
+    line-height: 100px;
+    /* 104.167% */
+    text-align: center;
 }

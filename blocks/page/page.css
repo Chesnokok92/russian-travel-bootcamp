@@ -1,8 +1,12 @@
-.page {
-    width: 1280px;
-    max-height: 6875px;
+body{
     background-color: #2A2C2F;
     color: #FFF;
+}
 
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+    max-height: 6875px;
+    font-family: 'inter';
 }

@@ -1,3 +1,10 @@
-.intro__list{
-    
+.intro__list {
+    display: flex;
+    position: relative;
+    padding: 0;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 0;
+    width: 690px;
+    height: 90px;
 }

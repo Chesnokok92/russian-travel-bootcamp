@@ -1,3 +1,12 @@
-.header{
-    display: grid;
+.header {
+    display: flex;
+    position: absolute;
+    top: 28px;
+    width: 1184px;
+    height: 52px;
+    flex-shrink: 0;
+    margin-left: 48px;
+    margin-right: 48px;
+    align-items: center;
+    justify-content: space-between;
 }

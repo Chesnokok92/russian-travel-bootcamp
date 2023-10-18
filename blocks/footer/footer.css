@@ -1,3 +1,10 @@
-.footer{
-    
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-top: 92px;
+    padding-bottom: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
