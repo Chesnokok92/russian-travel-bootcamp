@@ -1,12 +1,33 @@
 .header {
     display: flex;
-    position: absolute;
+    position: relative;
     top: 28px;
-    width: 1184px;
-    height: 52px;
-    flex-shrink: 0;
-    margin-left: 48px;
-    margin-right: 48px;
+    max-width: 1184px;
+    max-height: 52px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) {
+    .header {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .header {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
 }

@@ -7,3 +7,40 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
+
+@media screen and (min-width: 320px) {
+    .intro__text {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        /* 150% */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro__text {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        /* 150% */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__text {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        /* 150% */
+    }
+}

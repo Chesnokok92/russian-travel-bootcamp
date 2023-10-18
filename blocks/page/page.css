@@ -6,7 +6,52 @@ body{
 .page {
     margin-left: auto;
     margin-right: auto;
-    width: 1280px;
-    max-height: 6875px;
+    min-width:320px;
+    max-width: 1280px;
     font-family: 'inter';
+    text-rendering:optimizeLegibility;
+}
+
+@media screen and (min-width: 320px) {
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+        min-width:320px;
+        max-width: 767;
+        font-family: 'inter';
+        text-rendering:optimizeLegibility;
+    }
+    }
+
+@media screen and (min-width: 768px) {
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+        min-width:768px;
+        max-width: 1023;
+        font-family: 'inter';
+        text-rendering:optimizeLegibility;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+        min-width:1024px;
+        max-width: 1279;
+        font-family: 'inter';
+        text-rendering:optimizeLegibility;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        margin-left: auto;
+        margin-right: auto;
+        min-width:1280px;
+        max-width: 1280px;
+        font-family: 'inter';
+        text-rendering:optimizeLegibility;
+    }
 }

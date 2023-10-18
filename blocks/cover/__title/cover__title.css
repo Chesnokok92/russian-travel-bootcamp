@@ -5,9 +5,52 @@
     line-height: 76px;
     letter-spacing: 0em;
     text-align: center;
-    width: 560px;
-    height: 152px;
+    max-width: 560px;
+    max-height: 152px;
     text-decoration: none;
     color: #FFFFFF;
     z-index: 3;
+}
+
+@media screen and (min-width: 320px) {
+    .cover__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 35px; /* 109.375% */
+        max-width: 288px;
+        max-height: 70px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .cover__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 76px; /* 105.556% */
+        max-width: 560px;
+        max-height: 152px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cover__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 76px; /* 105.556% */
+        max-width: 560px;
+        max-height: 152px;
+    }
 }

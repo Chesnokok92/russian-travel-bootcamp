@@ -13,3 +13,45 @@
 .header__lang-link:nth-child(2n) {
     margin-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        color: #FFF;
+        text-align: right;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 111.111% */
+        text-decoration-line: underline;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__lang-link {
+        color: #FFF;
+        text-align: right;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 116.667% */
+        text-decoration-line: underline;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__lang-link {
+        color: #FFF;
+        text-align: right;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 116.667% */
+        text-decoration-line: underline;
+    }
+}
