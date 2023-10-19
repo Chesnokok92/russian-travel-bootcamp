@@ -31,3 +31,12 @@
         object-fit: cover;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+        display: flex;
+        max-width: 984px;
+        max-height: 615px;
+        object-fit: cover;
+    }
+}

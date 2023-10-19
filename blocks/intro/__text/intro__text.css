@@ -1,11 +1,12 @@
 .intro__text {
     display: flex;
-    margin-top: 40px;
+    color: #FFF;
+    font-family: Inter;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
+    line-height: 163%; /* 26.08px */
+    max-width: 690px;
 }
 
 
@@ -13,11 +14,11 @@
     .intro__text {
         color: #FFF;
         font-family: Inter;
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 18px;
-        /* 150% */
+        font-weight: 400;
+        line-height: 163%; /* 26.08px */
+        max-width: 288px;
     }
 }
 
@@ -25,11 +26,11 @@
     .intro__text {
         color: #FFF;
         font-family: Inter;
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 18px;
-        /* 150% */
+        font-weight: 400;
+        line-height: 163%; /* 26.08px */
+        max-width: 720px;
     }
 }
 
@@ -37,10 +38,10 @@
     .intro__text {
         color: #FFF;
         font-family: Inter;
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 700;
-        line-height: 18px;
-        /* 150% */
+        font-weight: 400;
+        line-height: 163%; /* 26.08px */
+        max-width: 690px;
     }
 }
