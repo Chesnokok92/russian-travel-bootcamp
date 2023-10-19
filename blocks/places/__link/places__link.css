@@ -5,12 +5,13 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    font-family: 'inter', sans-serif;
 }
 
 @media screen and (min-width: 320px) {
     .places__link {
         color: #FFF;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -23,7 +24,7 @@
 @media screen and (min-width: 768px) {
     .places__link {
         color: #FFF;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -36,7 +37,7 @@
 @media screen and (min-width: 1024px) {
     .places__link {
         color: #FFF;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -49,7 +50,7 @@
 @media screen and (min-width: 1280px) {
     .places__link {
         color: #FFF;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;

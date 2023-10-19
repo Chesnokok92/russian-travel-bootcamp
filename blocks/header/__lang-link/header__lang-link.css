@@ -9,6 +9,7 @@
     line-height: 28px;
     text-align: right;
     text-decoration-line: underline;
+    font-family: 'inter', sans-serif;
 }
 
 .header__lang-link:nth-child(2n) {
@@ -21,7 +22,7 @@
     .header__lang-link {
         color: #FFF;
         text-align: right;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -35,7 +36,7 @@
     .header__lang-link {
         color: #FFF;
         text-align: right;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -49,7 +50,7 @@
     .header__lang-link {
         color: #FFF;
         text-align: right;
-        font-family: Inter;
+        font-family: 'inter', sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
