@@ -6,56 +6,5 @@
     letter-spacing: 0em;
     text-align: left;
     font-family: 'inter', sans-serif;
-}
-
-@media screen and (min-width: 320px) {
-    .places__link {
-        color: #FFF;
-        font-family: 'inter', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
-        /* 122.222% */
-        text-decoration-line: underline;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .places__link {
-        color: #FFF;
-        font-family: 'inter', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
-        /* 122.222% */
-        text-decoration-line: underline;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .places__link {
-        color: #FFF;
-        font-family: 'inter', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
-        /* 122.222% */
-        text-decoration-line: underline;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .places__link {
-        color: #FFF;
-        font-family: 'inter', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
-        /* 122.222% */
-        text-decoration-line: underline;
-    }
+    text-decoration-line: underline;
 }

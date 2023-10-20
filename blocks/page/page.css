@@ -1,39 +1,32 @@
-body{
+.page {
     background-color: #2A2C2F;
     color: #FFF;
-    overflow-x: hidden;
-    font-family: 'inter', sans-serif;
-}
-
-.page {
+    font-family: 'Inter', sans-serif;
+    text-rendering: optimizeLegibility;
     margin: auto;
     max-width: 1280px;
-    font-family: 'inter', sans-serif;
-    text-rendering:optimizeLegibility;
-    overflow-x: hidden;
 }
 
 @media screen and (min-width: 320px) {
     .page {
-        max-width:320px;
+        max-width: 320px;
     }
-    }
+}
 
 @media screen and (min-width: 768px) {
     .page {
-        max-width:768px;
+        max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .page {
-        max-width:1024px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .page {
-        max-width:1280px;
+        max-width: 1280px;
     }
 }
-

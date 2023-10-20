@@ -1,12 +1,80 @@
 @font-face {
-    font-family: "inter";
+    font-family: 'Inter', sans-serif;
+    font-style: Regular;
+    font-weight: 400;
     src: local(inter);
-    font-weight: bold;
+    src: url(../fonts/Inter/Inter-Regular.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Regular.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: "inter";
+    font-family: 'Inter', sans-serif;
+    font-style: Regular;
+    font-weight: 700;
     src: local(inter);
-    font-weight: normal;
+    src: url(../fonts/Inter/Inter-Regular.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Regular.woff2) format("woff2");
 }
 
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: Regular;
+    font-weight: 900;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Regular.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Bold.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Bold.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Bold.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: black;
+    font-weight: 400;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Black.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Black.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: black;
+    font-weight: 700;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Black.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Black.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    font-style: black;
+    font-weight: 900;
+    src: local(inter);
+    src: url(../fonts/Inter/Inter-Black.woff) format("woff");
+    src: url(../fonts/Inter/Inter-Black.woff2) format("woff2");
+}
