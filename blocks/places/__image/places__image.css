@@ -9,7 +9,8 @@
         max-height: 440px;
     }
 }
-@media screen and (max-width: 1023x) {
+
+@media screen and (max-width: 1023px) {
     .places__image {
         max-height: 340px;
     }
