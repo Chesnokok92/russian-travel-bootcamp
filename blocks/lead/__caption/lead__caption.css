@@ -1,5 +1,9 @@
 .lead__caption {
     display: flex;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     font-size: 10px;
     font-weight: 400;
@@ -7,31 +11,27 @@
     letter-spacing: 1.5px;
     text-align: left;
     text-transform: uppercase;
-    align-self: flex-start;
-    width: auto;
     font-family: 'inter', sans-serif;
+    max-width: 984px;
 }
 
-@media screen and (min-width: 320px) {
-    .lead__caption {
-        max-width: 320px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .lead__caption {
-        max-width: 768px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .lead__caption {
         max-width: 928px;
+        min-width: 928px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1023px) {
     .lead__caption {
-        max-width: 984px;
+        max-width: 720px;
+        min-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        max-width: 288px;
+        min-width: 288px;
     }
 }

@@ -1,4 +1,6 @@
 .places__url-heading {
+    margin: 0;
+    margin-bottom: 12px;
     color: #AAAAAA;
     font-size: 12px;
     font-weight: 400;

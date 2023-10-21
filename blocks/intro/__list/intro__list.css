@@ -1,27 +1,27 @@
 .intro__list {
     display: flex;
     padding: 0;
+    margin: 0;
     flex-direction: column;
     margin-top: 33px;
-    margin-bottom: 0;
     max-width: 690px;
-    font-family: 'inter', sans-serif;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
 }
 
-@media screen and (min-width: 320px) {
-    .intro__list {
-        max-width: 288px;
-    }
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro__list {
         max-width: 720px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 767px) {
     .intro__list {
-        max-width: 690px;
+        min-width: 288px;
+        max-width: 288px;
     }
 }

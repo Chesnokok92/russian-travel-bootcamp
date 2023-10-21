@@ -10,18 +10,16 @@
     margin-right: auto;
     margin-left: auto;
     align-items: flex-end;
+    min-width: 460px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 1279px) {
     .places__title {
-        font-size: 32px;
-        line-height: 35px;
-        min-width: 288px;
+        min-width: 440px;
     }
 }
 
-
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places__title {
         font-size: 42px;
         line-height: 46px;
@@ -29,16 +27,10 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 767px) {
     .places__title {
-        font-size: 72px;
-        line-height: 76px;
-        min-width: 440px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .places__title {
-        min-width: 460px;
+        font-size: 32px;
+        line-height: 35px;
+        min-width: 288px;
     }
 }
