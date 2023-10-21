@@ -25,7 +25,7 @@
 }
 
 .cover:hover.cover::before{
-    background-color: rgba(42, 44, 47, 0.8); 
+    background-color: rgba(42, 44, 47, 0.8);
     width: 100%;
 }
 
