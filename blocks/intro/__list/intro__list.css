@@ -5,12 +5,11 @@
     flex-direction: column;
     margin-top: 33px;
     max-width: 690px;
-    color: #FFF;
-    font-family: Inter;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
+    font-family: 'inter', sans-serif;
 }
 
 @media screen and (max-width: 1023px) {

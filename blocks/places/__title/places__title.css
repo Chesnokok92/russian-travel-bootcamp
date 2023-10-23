@@ -7,9 +7,6 @@
     font-weight: 900;
     line-height: 76px;
     font-family: 'inter', sans-serif;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: flex-end;
     min-width: 460px;
 }
 
@@ -33,5 +30,7 @@
         font-size: 32px;
         line-height: 35px;
         min-width: 288px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }

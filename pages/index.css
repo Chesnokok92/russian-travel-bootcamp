@@ -38,7 +38,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/link/link.css);
-
-
-
-* { outline: 1px solid yellow; }
